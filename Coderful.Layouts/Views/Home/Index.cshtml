@@ -1,0 +1,22 @@
+﻿@{
+	this.StrongViewBag.LayoutDetails = new LayoutDetails
+	{
+		Title = "Coderful - Razor Layouts",
+		Breadcrumbs = new List<Link>
+		{
+			new Link("Home", this.Url.Action(MVC.Home.Index()))
+		}
+	};
+}
+
+<h1>What is this?</h1>
+<p>
+	This is a collection of Razor layouts usable on any ASP.NET MVC project.
+	All layouts are built using <a href="http://getbootstrap.com">Twitter Bootstrap 3</a>.
+</p>
+
+<h3>Features</h3>
+	
+<p>The below table shows which features are supported by each layout.</p>
+
+@{ Html.RenderPartial(MVC.Home.Views.LayoutFeatures); }

@@ -1,0 +1,45 @@
+﻿@helper Unsupported()
+{
+	<span class=""><span class="fa fa-times red"></span></span>
+}
+
+@helper Supported()
+{
+	<span class="fa fa-check green"></span>
+}
+
+<table class="table table-condensed table-striped table-hover">
+	<colgroup>
+		<col class="col-md-4" />
+		<col class="col-md-2" />
+		<col class="col-md-2" />
+		<col class="col-md-2" />
+		<col class="col-md-2" />
+	</colgroup>
+	<thead>
+		<tr>
+			<th>Name</th>
+			<th class="text-center">Left menu</th>
+			<th class="text-center">Breadcrumbs</th>
+			<th class="text-center">Tabs</th>
+			<th class="text-center">Footer</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td>Layout #1</td>
+			<td class="text-center">@this.Supported()</td>
+			<td class="text-center">@this.Supported()</td>
+			<td class="text-center">@this.Unsupported() </td>
+			<td class="text-center">@this.Supported()</td>
+		</tr>
+		<tr>
+			<td>Layout #2</td>
+			<td class="text-center">@this.Supported()</td>
+			<td class="text-center">@this.Supported()</td>
+			<td class="text-center">@this.Supported() </td>
+			<td class="text-center">@this.Supported()</td>
+		</tr>
+	</tbody>
+</table>

@@ -1,0 +1,26 @@
+﻿@{
+	this.StrongViewBag.LayoutDetails = new LayoutDetails
+	{
+		Title = "Layout #2",
+		Breadcrumbs = new List<Link>
+		{
+			new Link("Home", this.Url.Action(MVC.Home.Index())),
+			new Link("Layout #2", this.Url.Action(MVC.Two.Index()))
+		},
+		Tabs = new List<Link>
+		{
+			new Link("Tab #1", this.Url.Action(MVC.Two.Index(1))),
+			new Link("Tab #2", this.Url.Action(MVC.Two.Index(2)))
+		},
+		CurrentTabIndex = this.ViewBag.Tab - 1
+	};
+}
+
+<h1>Layout #2</h1>
+This layout supports:
+<ul>
+	<li>Left menu</li>
+	<li>Breadcrumbs</li>
+	<li>Tabs</li>
+	<li>Footer</li>
+</ul>										 

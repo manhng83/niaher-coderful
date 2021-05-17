@@ -1,0 +1,19 @@
+﻿@{
+	this.StrongViewBag.LayoutDetails = new LayoutDetails
+	{
+		Title = "Layout #1",
+		Breadcrumbs = new List<Link>
+		{
+			new Link("Home", this.Url.Action(MVC.Home.Index())),
+			new Link("Layout #1", this.Url.Action(MVC.One.Index()))
+		}
+	};
+}
+
+<h1>Layout #1</h1>
+This layout supports:
+<ul>
+	<li>Left menu</li>
+	<li>Breadcrumbs</li>
+	<li>Footer</li>
+</ul>						  

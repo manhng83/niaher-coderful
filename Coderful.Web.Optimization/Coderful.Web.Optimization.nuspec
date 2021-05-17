@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<projectUrl>https://bitbucket.org/niaher/coderful-corebits</projectUrl>
+		<licenseUrl>https://bitbucket.org/niaher/coderful-corebits</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+	</metadata>
+</package>

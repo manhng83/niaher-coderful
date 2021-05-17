@@ -1,0 +1,114 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{E012BA1E-322A-43B6-9255-9B8B09B0A0E5}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Events", "Coderful.Events\Coderful.Events.csproj", "{8890D7AD-0DCA-469C-80FD-C7FE975BB9A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Events.Test", "Coderful.Events.Test\Coderful.Events.Test.csproj", "{F793B36B-D9CD-4201-A883-3D779988E838}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.TestConfiguration", "Coderful.TestConfiguration\Coderful.TestConfiguration.csproj", "{AA3C835D-4542-4658-8DCB-1CB5E9F8CCF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{B2A5B781-981D-483D-8B31-B4AF3228213E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{99A067E5-CDC2-4DB0-A665-80E82E3DB079}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Web", "Coderful.Web\Coderful.Web.csproj", "{E0C4F74B-1C7D-48B4-9280-E496B3DEDF72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Web.Mvc", "Coderful.Web.Mvc\Coderful.Web.Mvc.csproj", "{C583263C-F026-4580-A8FE-A9FA31833E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Layouts", "Coderful.Layouts\Coderful.Layouts.csproj", "{8F892700-A2BA-482F-95EB-583E38BDC303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NugetPackages", "NugetPackages", "{BF2A0FF8-0556-4E4B-9330-D1A2C5D38FBE}"
+	ProjectSection(SolutionItems) = preProject
+		NugetPackages\build-nuget-packages.ps1 = NugetPackages\build-nuget-packages.ps1
+		NugetPackages\push-nuget-packages.ps1 = NugetPackages\push-nuget-packages.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Core", "Coderful.Core\Coderful.Core.csproj", "{F39EB40A-3A6E-459A-BFE1-F3C17893A79F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Permissions", "Coderful.Permissions\Coderful.Permissions.csproj", "{9631191C-5691-44AD-B840-8C6E6DA6219F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.EntityFramework.Testing", "Coderful.EntityFramework.Testing\Coderful.EntityFramework.Testing.csproj", "{35CF3B2A-EC5B-4D68-9758-40FBC235FE4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Logging", "Coderful.Logging\Coderful.Logging.csproj", "{D50F318E-BB6C-4634-BCF9-A234EB434B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.EntityFramework.Testing.Test", "Coderful.EntityFramework.Testing.Test\Coderful.EntityFramework.Testing.Test.csproj", "{0E88B478-938F-4134-9409-61B4EB12F5E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Coderful.Web.Optimization", "Coderful.Web.Optimization\Coderful.Web.Optimization.csproj", "{06526B8E-ADD2-43B3-A678-71C3DE366A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8890D7AD-0DCA-469C-80FD-C7FE975BB9A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8890D7AD-0DCA-469C-80FD-C7FE975BB9A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8890D7AD-0DCA-469C-80FD-C7FE975BB9A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8890D7AD-0DCA-469C-80FD-C7FE975BB9A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F793B36B-D9CD-4201-A883-3D779988E838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F793B36B-D9CD-4201-A883-3D779988E838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F793B36B-D9CD-4201-A883-3D779988E838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F793B36B-D9CD-4201-A883-3D779988E838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA3C835D-4542-4658-8DCB-1CB5E9F8CCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA3C835D-4542-4658-8DCB-1CB5E9F8CCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA3C835D-4542-4658-8DCB-1CB5E9F8CCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA3C835D-4542-4658-8DCB-1CB5E9F8CCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0C4F74B-1C7D-48B4-9280-E496B3DEDF72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0C4F74B-1C7D-48B4-9280-E496B3DEDF72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0C4F74B-1C7D-48B4-9280-E496B3DEDF72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0C4F74B-1C7D-48B4-9280-E496B3DEDF72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C583263C-F026-4580-A8FE-A9FA31833E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C583263C-F026-4580-A8FE-A9FA31833E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C583263C-F026-4580-A8FE-A9FA31833E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C583263C-F026-4580-A8FE-A9FA31833E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F892700-A2BA-482F-95EB-583E38BDC303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F892700-A2BA-482F-95EB-583E38BDC303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F892700-A2BA-482F-95EB-583E38BDC303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F892700-A2BA-482F-95EB-583E38BDC303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39EB40A-3A6E-459A-BFE1-F3C17893A79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39EB40A-3A6E-459A-BFE1-F3C17893A79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39EB40A-3A6E-459A-BFE1-F3C17893A79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39EB40A-3A6E-459A-BFE1-F3C17893A79F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9631191C-5691-44AD-B840-8C6E6DA6219F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9631191C-5691-44AD-B840-8C6E6DA6219F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9631191C-5691-44AD-B840-8C6E6DA6219F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9631191C-5691-44AD-B840-8C6E6DA6219F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35CF3B2A-EC5B-4D68-9758-40FBC235FE4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35CF3B2A-EC5B-4D68-9758-40FBC235FE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35CF3B2A-EC5B-4D68-9758-40FBC235FE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35CF3B2A-EC5B-4D68-9758-40FBC235FE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50F318E-BB6C-4634-BCF9-A234EB434B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50F318E-BB6C-4634-BCF9-A234EB434B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50F318E-BB6C-4634-BCF9-A234EB434B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50F318E-BB6C-4634-BCF9-A234EB434B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E88B478-938F-4134-9409-61B4EB12F5E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E88B478-938F-4134-9409-61B4EB12F5E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E88B478-938F-4134-9409-61B4EB12F5E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E88B478-938F-4134-9409-61B4EB12F5E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06526B8E-ADD2-43B3-A678-71C3DE366A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06526B8E-ADD2-43B3-A678-71C3DE366A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06526B8E-ADD2-43B3-A678-71C3DE366A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06526B8E-ADD2-43B3-A678-71C3DE366A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F793B36B-D9CD-4201-A883-3D779988E838} = {B2A5B781-981D-483D-8B31-B4AF3228213E}
+		{AA3C835D-4542-4658-8DCB-1CB5E9F8CCF4} = {B2A5B781-981D-483D-8B31-B4AF3228213E}
+		{0E88B478-938F-4134-9409-61B4EB12F5E4} = {B2A5B781-981D-483D-8B31-B4AF3228213E}
+	EndGlobalSection
+EndGlobal

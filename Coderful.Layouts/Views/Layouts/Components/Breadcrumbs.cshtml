@@ -1,0 +1,11 @@
+﻿@model IList<Link>
+
+@if (this.Model != null && this.Model.Count > 0)
+{
+    <ul class="breadcrumb">
+    @foreach (var link in this.Model)
+    {
+        <li><a href="@link.Url">@link.Anchor</a></li>
+    }
+    </ul>
+}

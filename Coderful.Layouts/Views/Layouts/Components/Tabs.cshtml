@@ -1,0 +1,17 @@
+﻿@model LayoutDetails
+
+<nav id="p0_t">
+	<ul class="nav nav-tabs">
+	@if (this.Model.Tabs != null && this.Model.Tabs.Count > 1)
+	{
+		int i = 0;
+		
+		foreach (var link in this.Model.Tabs)
+		{
+			<li class="@(i++ == this.Model.CurrentTabIndex ? "active" : string.Empty)">
+				<a href="@link.Url">@link.Anchor</a>
+			</li>
+		}
+	}
+	</ul>
+</nav>
